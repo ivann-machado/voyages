@@ -36,24 +36,20 @@ document.addEventListener('DOMContentLoaded', () => {
 		requestAnimationFrame(animate);
 	};
 	setTimeout(() => {
-		// zoomToPath('Morocco');
-		zoomToPath('Portugal');
+		zoomToPath('Morocco');
+		// zoomToPath('Portugal');
 		// zoomToPath('United States');
 		// zoomToPath('Egypt');
 		return;
 	}, 1000);
 	return;
 });
-	document.addEventListener('animationstart', () => {
-
-				console.log('hello');
-		if (event.animationName == 'openC') {
-			setTimeout(() => {
-				const svg = document.getElementById('allSvg');
-				console.log(svg);
-				svg.remove();
-				return;
-			}, 2200);
-		}
-
-	});
+document.addEventListener('animationstart', () => {
+	if (event.animationName == 'openC') {
+		setTimeout(() => {
+			const svg = document.getElementById('allSvg');
+			svg.remove();
+			return;
+		}, 2200);
+	}
+});
