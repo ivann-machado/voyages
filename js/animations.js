@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	return;
 });
 document.addEventListener('animationstart', () => {
+	console.log('Animation started');
 	if (event.animationName == 'openC') {
 		setTimeout(() => {
 			const svg = document.getElementById('allSvg');

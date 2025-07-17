@@ -76,7 +76,7 @@ body:before {
 	  background: linear-gradient(135deg, #103c58, #206d9b, #081f3d);
 	  background-blend-mode: overlay;
 
-	/*width: 100%;*/
-	/*height: 100%;*/
+	width: 100%;
+	height: 100%;
 	/*animation: zoomToPortugal 2s ease-in forwards;*/
 }
