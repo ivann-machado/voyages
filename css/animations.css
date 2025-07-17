@@ -1,0 +1,50 @@
+body:before {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  animation: open 2.5s ease forwards;
+  mask: radial-gradient(circle at center, transparent, transparent 50px, black 50px, black 100%);
+}
+@keyframes open {
+  from {
+    background-color: black;
+    mask: radial-gradient(circle at center, transparent, transparent 50px, black 50px, black 100%);
+  }
+  99% {
+    background-color: black;
+
+  }
+  to {
+    transform: scale(100.0);
+    background: none;
+  }
+}
+#Morocco {
+  fill: green;
+}
+#Portugal {
+  fill: red;
+}
+#Egypt {
+  fill: yellow;
+}
+[id="United States"] {
+  fill: blue;
+}
+/*@keyframes zoomToPortugal {
+  from {
+    transform: scale(1) translate(0, 0);
+    transform-origin: center;
+  }
+  to {
+    transform: scale(30) translate(3.4rem, 10.7rem);
+    transform-origin: center;
+  }
+}*/
+
+/*#allSvg {*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*animation: zoomToPortugal 2s ease-in forwards;*/
+/*}*/
