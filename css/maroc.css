@@ -9,7 +9,7 @@ body {
     background-image: url('../assets/ruelle-dans-une-medina-de-marrakech-sous-le-soleil-et-un-ciel-bleu-a-mor.jpg');
       background-size: cover;                      
       background-repeat: no-repeat;  
-      height: 100%;
+      height: 100vh;
       margin: 0;
       background-attachment: fixed;
       background-position: 40% 50%;
