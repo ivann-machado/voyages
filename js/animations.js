@@ -36,8 +36,24 @@ document.addEventListener('DOMContentLoaded', () => {
 		requestAnimationFrame(animate);
 	};
 	setTimeout(() => {
-		zoomToPath('Morocco');
-		}, 1000);
+		// zoomToPath('Morocco');
+		zoomToPath('Portugal');
+		// zoomToPath('United States');
+		// zoomToPath('Egypt');
+		return;
+	}, 1000);
+	return;
 });
+	document.addEventListener('animationstart', () => {
 
-		// zoomToPath('United States', 500, 350, -100, 70); America
+				console.log('hello');
+		if (event.animationName == 'openC') {
+			setTimeout(() => {
+				const svg = document.getElementById('allSvg');
+				console.log(svg);
+				svg.remove();
+				return;
+			}, 2200);
+		}
+
+	});
