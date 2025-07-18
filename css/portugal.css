@@ -1,0 +1,76 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #046faa, #029b84);
+  color: white;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+nav {
+  background: #ffd700;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+}
+
+nav a {
+  color: #000;
+  margin: 0.5rem 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Algarve_Coast.jpg/800px-Algarve_Coast.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h3 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #046faa;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ddd;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  header h1 { font-size: 2rem; }
+  .hero h2 { font-size: 1.8rem; }
+  nav { flex-direction: column; }
+}
