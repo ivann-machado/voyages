@@ -51,6 +51,7 @@ document.addEventListener('animationstart', () => {
 		setTimeout(() => {
 			const svg = document.getElementById('allSvg');
 			svg.remove();
+			document.getElementsByClassName('country')[0].classList.remove('country');
 			return;
 		}, 2200);
 	}
