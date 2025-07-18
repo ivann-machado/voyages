@@ -113,3 +113,148 @@ h2 {
 }
 
 
+/* Itineraire voyage */
+
+.TitrePrincipal2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10vw;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.Presentation2 {
+  text-align: center;
+  margin: 3vw;
+  color: #ffffff;
+  font-size: 14px;
+  text-shadow: 2px 2px 2px gray;
+
+}
+
+.Jours {
+  color: #ffffff;
+    text-align: left;
+    margin-left: 3vw;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10vw;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.Blocitineraire {
+  background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+    margin: 3vw;
+    border-radius: 10px;
+}
+
+.ImageItineraire {
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+.ImageItineraire img {
+  border-radius: 10px;
+  height: 45vw;
+  width: auto;
+}
+
+.TitreItineraire {
+   color: #ffffff;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 10vw;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.trajet {
+  border-radius: 10px;
+  height: 60vw;
+  width: auto;
+}
+
+/* Caroussel */
+
+.h22 {
+      color: #ffffff;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10vw;
+    text-shadow: 2px 2px 2px gray;
+    }
+
+    .carousel {
+      overflow: hidden;
+      width: 100%;
+      max-width: 800px;
+      margin: 30px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .carousel-track {
+      display: flex;
+      width: calc(800px * 10); /* 10 images */
+      animation: scroll 30s linear infinite;
+    }
+
+    .carousel-track img {
+      width: 800px;
+      height: 400px;
+      object-fit: cover;
+    }
+
+    @keyframes scroll {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-4000px); } /* 5 images x 800px */
+    }
+
+    @media (max-width: 820px) {
+      .carousel-track img {
+        width: 100vw;
+        height: auto;
+      }
+      .carousel-track {
+        width: calc(100vw * 10);
+      }
+      @keyframes scroll {
+        0%   { transform: translateX(0); }
+        100% { transform: translateX(-500vw); }
+      }
+    }
+
+
+    /* Media queries */
+@media screen and (min-width: 1024px) {
+  .TitrePrincipal {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 85px;
+    margin-top: 5vw;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.Presentation {
+  text-align: center;
+  margin: 3vw;
+  color: #ffffff;
+  font-size: 25px;
+  text-shadow: 2px 2px 2px gray;
+
+}
+  }
+
+   
+
