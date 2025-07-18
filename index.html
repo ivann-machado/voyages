@@ -1,30 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="./css/main.css">
-	<link rel="stylesheet" href="./css/animations.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Acceuil</title>
-	<script type="text/javascript" src="./js/animations.js" ></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/animations.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accueil - Voyage</title>
+    <script type="text/javascript" src="./js/animations.js"></script>
+  </head>
 
   <body class="index">
+    <div class="overlay"></div>
     <main>
       <h1 class="TitreAcceuil">Voyage</h1>
       <p class="TexteAcceuil">
         Bienvenue sur notre site de voyage !<br /><br />
-        Trois destinations uniques, soigneusement sélectionnées pour vous faire
-        vivre des expériences inoubliables.
+        Quatre destinations uniques, soigneusement sélectionnées pour vous faire
+        vivre des expériences inoubliables à travers les cultures du monde.
       </p>
+
+      <div class="destinations-grid">
+        <a href="egypt.html" class="destination-card">
+          <span class="flag">🇪🇬</span>
+          <h3>Égypte</h3>
+          <p>
+            Découvrez les mystères des pharaons, les pyramides majestueuses et
+            la beauté du Nil éternel.
+          </p>
+        </a>
+
+        <a href="maroc.html" class="destination-card">
+          <span class="flag">🇲🇦</span>
+          <h3>Maroc</h3>
+          <p>
+            Explorez les souks colorés, les déserts dorés et l'hospitalité
+            chaleureuse du royaume chérifien.
+          </p>
+        </a>
+
+        <a href="portugal.html" class="destination-card">
+          <span class="flag">🇵🇹</span>
+          <h3>Portugal</h3>
+          <p>
+            Savourez l'âme ibérique entre fado mélancolique, azulejos colorés et
+            côtes atlantiques.
+          </p>
+        </a>
+
+        <a href="#" class="destination-card">
+          <span class="flag">🇺🇸</span>
+          <h3>États-Unis</h3>
+          <p>
+            Vivez le rêve américain des gratte-ciels de New York aux parcs
+            nationaux de l'Ouest.
+          </p>
+        </a>
+      </div>
     </main>
 
     <div class="NavBar">
       <nav class="bottom-nav">
-        <a href="#">Accueil</a>
-        <a href="#">Destinations</a>
-        <a href="#">Contact</a>
+        <a href="#" class="active">Accueil</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#contact">Contact</a>
       </nav>
     </div>
+
+    <script>
+      // Animation au scroll
+      window.addEventListener("scroll", function () {
+        const cards = document.querySelectorAll(".destination-card");
+        cards.forEach((card) => {
+          const rect = card.getBoundingClientRect();
+          if (rect.top < window.innerHeight - 100) {
+            card.style.opacity = "1";
+            card.style.transform = "translateY(0)";
+          }
+        });
+      });
+
+      // Animation des cartes au chargement
+      document.addEventListener("DOMContentLoaded", function () {
+        const cards = document.querySelectorAll(".destination-card");
+        cards.forEach((card, index) => {
+          card.style.opacity = "0";
+          card.style.transform = "translateY(30px)";
+          setTimeout(() => {
+            card.style.transition = "all 0.6s ease";
+            card.style.opacity = "1";
+            card.style.transform = "translateY(0)";
+          }, index * 200 + 1000);
+        });
+      });
+    </script>
   </body>
 </html>
