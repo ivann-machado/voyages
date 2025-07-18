@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	};
 	if (pathToParam[urlPath]) {
 		setTimeout(() => {
-			zoomToPath(pathId);
+			zoomToPath(pathId, 1000);
 		}, 500);
 	}
 	return;
