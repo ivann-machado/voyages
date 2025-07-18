@@ -254,6 +254,85 @@ h2 {
   text-shadow: 2px 2px 2px gray;
 
 }
+
+/* Tableau */
+.TableauMaroc {
+  padding: 2vw;
+  border-radius: 10px;
+    
+margin: auto;
+text-align: left;
+
+}
+.TableauMaroc th, td {
+  color: #ffffff;
+  padding: 3px;
+  font-family: "Outfit", sans-serif;
+  border: 1px solid #ffffff;
+    text-shadow: 2px 2px 2px gray;
+    font-size: 20px;
+
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px gray;
+  padding: 4px;
+}
+
+.Drapeau img {
+  border-radius: 10px;
+  height: 12vw;
+  width: auto;
+}
+.Drapeau {
+  color: #ffffff;
+  text-align: center;    
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 5px;
+  font-size: small;
+      text-shadow: 2px 2px 2px gray;
+
+
+}
+
+.Armoirie {
+  height: 5vw;
+  width: auto;
+}
+
+.Images2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+
+.LesTableaux {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* espace entre les deux blocs */
+  flex-wrap: wrap; /* utile pour mobile */
+}
+
+.Informations {
+  flex: 1;
+  min-width: 300px;
+  max-width: 37%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(8px);
+  box-sizing: border-box;
+      border-radius: 10px;
+
+}
+
+
+
   }
 
    
