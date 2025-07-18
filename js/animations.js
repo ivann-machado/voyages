@@ -1,4 +1,8 @@
+	const pathToParam = {'maroc.html': 'Morocco', 'portugal.html': 'Portugal', 'united-states.html': 'United States', 'egypt.html': 'Egypt'};
+	const urlPath = window.location.pathname.split('/').pop();
+	const pathId = pathToParam[urlPath];
 document.addEventListener('DOMContentLoaded', () => {
+
 	const zoomToPath = (pathId, duration = 500, offsetX = 0, offsetY = 0, padding = 10) => {
 		const svg = document.getElementById('allSvg');
 		const path = document.getElementById(pathId);
@@ -35,17 +39,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 		requestAnimationFrame(animate);
 	};
-	setTimeout(() => {
-		zoomToPath('Morocco');
-		// zoomToPath('Portugal');
-		// zoomToPath('United States');
-		// zoomToPath('Egypt');
-		return;
-	}, 1000);
+	if (pathToParam[urlPath]) {
+		setTimeout(() => {
+			zoomToPath(pathId);
+		}, 500);
+	}
 	return;
 });
 document.addEventListener('animationstart', () => {
-	console.log('Animation started');
 	if (event.animationName == 'openC') {
 		setTimeout(() => {
 			const svg = document.getElementById('allSvg');
