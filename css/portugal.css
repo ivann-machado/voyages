@@ -77,3 +77,21 @@ section h3 {
 	font-size: 1.8rem;
 	color: #002f6c; 
 }
+.bottom-nav { 
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0;
+	z-index: 1000;
+}
+
+.bottom-nav a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	color: #ffffff;
+}  
