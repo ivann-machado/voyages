@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('../assets/ruelle-dans-une-medina-de-marrakech-sous-le-soleil-et-un-ciel-bleu-a-mor.jpg');
+    background-image: url('../assets/fondsite2.jpg');
       background-size: cover;                      
       background-repeat: no-repeat;  
       height: 100vh;
@@ -284,7 +284,7 @@ h2 {
 
 .Drapeau img {
   border-radius: 10px;
-  height: 12vw;
+  height: 10vw;
   width: auto;
 }
 .Drapeau {
@@ -300,7 +300,7 @@ h2 {
 }
 
 .Armoirie {
-  height: 5vw;
+  height: 4vw;
   width: auto;
 }
 
@@ -331,7 +331,61 @@ h2 {
 
 }
 
+/* Body */
 
+body {
+    background-image: url('../assets/ruelle-dans-une-medina-de-marrakech-sous-le-soleil-et-un-ciel-bleu-a-mor.jpg');
+      background-size: cover;                      
+      background-repeat: no-repeat;  
+      height: 100vh;
+      margin: 0;
+      background-attachment: fixed;
+      background-position: 40% 50%;
+      font-family: "Outfit", sans-serif;
+}
+
+.TitrePrincipal2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 7vw;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.Presentation2 {
+  text-align: center;
+  margin: 3vw;
+  color: #ffffff;
+  font-size: 25px;
+  text-shadow: 2px 2px 2px gray;
+
+}
+
+.a3par3 {
+  display: flex;
+  justify-content: space-between; /* Espace entre les blocs */
+  gap: 20px; /* Espace entre les éléments (facultatif si justify-content est utilisé) */
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.Bloc3par3 {
+  flex: 1 1 10%; /* Chaque bloc prend environ 30% de la largeur */
+}
+
+.ImageItineraire {
+  color: #ffffff;
+
+}
+
+.ImageItineraire img {
+  border-radius: 10px;
+  height: 12vw;
+  width: auto;
+}
 
   }
 
