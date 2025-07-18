@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    background-image: url('../assets/fondsite2.jpg');
-      background-size: cover;                      
-      background-repeat: no-repeat;  
-      height: 100vh;
-      margin: 0;
-      background-attachment: fixed;
-      background-position: 40% 50%;
-      font-family: "Outfit", sans-serif;
+  background-image: url('../assets/fondsite2.jpg');
+  background-size: cover;                      
+  background-repeat: no-repeat;  
+  height: 100vh;
+  margin: 0;
+  background-attachment: fixed;
+  background-position: 40% 50%;
+  font-family: "Outfit", sans-serif;
 }
 
 /* Texte Presentation */
 
 .TitrePrincipal {
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 0px;
-    font-weight: bold;
-    font-size: 85px;
-    margin-top: 10vw;
-    text-shadow: 2px 2px 2px gray;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 85px;
+  margin-top: 10vw;
+  text-shadow: 2px 2px 2px gray;
 }
 
 .Presentation {
@@ -42,9 +42,9 @@ body {
 .TableauMaroc {
   padding: 5vw;
   border-radius: 10px;
-    
-margin: auto;
-text-align: left;
+
+  margin: auto;
+  text-align: left;
 
 }
 .TableauMaroc th, td {
@@ -52,7 +52,7 @@ text-align: left;
   padding: 3px;
   font-family: "Outfit", sans-serif;
   border: 1px solid #ffffff;
-    text-shadow: 2px 2px 2px gray;
+  text-shadow: 2px 2px 2px gray;
 
 }
 
@@ -66,9 +66,9 @@ h2 {
 
 .Informations {
   background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(8px);
-    border-radius: 10px;
-    margin: 15px;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  margin: 15px;
 }
 
 /* Image */
@@ -96,7 +96,7 @@ h2 {
   border-radius: 10px;
   padding: 5px;
   font-size: small;
-      text-shadow: 2px 2px 2px gray;
+  text-shadow: 2px 2px 2px gray;
 
 
 }
@@ -116,13 +116,13 @@ h2 {
 /* Itineraire voyage */
 
 .TitrePrincipal2 {
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 0px;
-    font-weight: bold;
-    font-size: 50px;
-    margin-top: 10vw;
-    text-shadow: 2px 2px 2px gray;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 10vw;
+  text-shadow: 2px 2px 2px gray;
 }
 
 .Presentation2 {
@@ -136,20 +136,20 @@ h2 {
 
 .Jours {
   color: #ffffff;
-    text-align: left;
-    margin-left: 3vw;
-    margin-bottom: 0px;
-    font-weight: bold;
-    font-size: 30px;
-    margin-top: 10vw;
-    text-shadow: 2px 2px 2px gray;
+  text-align: left;
+  margin-left: 3vw;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10vw;
+  text-shadow: 2px 2px 2px gray;
 }
 
 .Blocitineraire {
   background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(8px);
-    margin: 3vw;
-    border-radius: 10px;
+  backdrop-filter: blur(8px);
+  margin: 3vw;
+  border-radius: 10px;
 }
 
 .ImageItineraire {
@@ -166,13 +166,13 @@ h2 {
 }
 
 .TitreItineraire {
-   color: #ffffff;
-    text-align: center;
-    margin-bottom: 0px;
-    font-weight: bold;
-    font-size: 35px;
-    margin-top: 10vw;
-    text-shadow: 2px 2px 2px gray;
+ color: #ffffff;
+ text-align: center;
+ margin-bottom: 0px;
+ font-weight: bold;
+ font-size: 35px;
+ margin-top: 10vw;
+ text-shadow: 2px 2px 2px gray;
 }
 
 .trajet {
@@ -184,57 +184,57 @@ h2 {
 /* Caroussel */
 
 .h22 {
-      color: #ffffff;
-    text-align: center;
-    margin-bottom: 0px;
-    font-weight: bold;
-    font-size: 30px;
-    margin-top: 10vw;
-    text-shadow: 2px 2px 2px gray;
-    }
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10vw;
+  text-shadow: 2px 2px 2px gray;
+}
 
-    .carousel {
-      overflow: hidden;
-      width: 100%;
-      max-width: 800px;
-      margin: 30px auto;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    }
+.carousel {
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
 
-    .carousel-track {
-      display: flex;
-      width: calc(800px * 10); /* 10 images */
-      animation: scroll 30s linear infinite;
-    }
+.carousel-track {
+  display: flex;
+  width: calc(800px * 10); /* 10 images */
+  animation: scroll 30s linear infinite;
+}
 
-    .carousel-track img {
-      width: 800px;
-      height: 400px;
-      object-fit: cover;
-    }
+.carousel-track img {
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+}
 
-    @keyframes scroll {
-      0%   { transform: translateX(0); }
-      100% { transform: translateX(-4000px); } /* 5 images x 800px */
-    }
+@keyframes scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-4000px); } /* 5 images x 800px */
+}
 
-    @media (max-width: 820px) {
-      .carousel-track img {
-        width: 100vw;
-        height: auto;
-      }
-      .carousel-track {
-        width: calc(100vw * 10);
-      }
-      @keyframes scroll {
-        0%   { transform: translateX(0); }
-        100% { transform: translateX(-500vw); }
-      }
-    }
+@media (max-width: 820px) {
+  .carousel-track img {
+    width: 100vw;
+    height: auto;
+  }
+  .carousel-track {
+    width: calc(100vw * 10);
+  }
+  @keyframes scroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-500vw); }
+  }
+}
 
 
-    /* Media queries */
+/* Media queries */
 @media screen and (min-width: 1024px) {
   .TitrePrincipal {
     color: #ffffff;
@@ -244,24 +244,24 @@ h2 {
     font-size: 85px;
     margin-top: 5vw;
     text-shadow: 2px 2px 2px gray;
-}
+  }
 
-.Presentation {
-  text-align: center;
-  margin: 3vw;
-  color: #ffffff;
-  font-size: 25px;
-  text-shadow: 2px 2px 2px gray;
+  .Presentation {
+    text-align: center;
+    margin: 3vw;
+    color: #ffffff;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px gray;
 
-}
+  }
 
 /* Tableau */
 .TableauMaroc {
   padding: 2vw;
   border-radius: 10px;
-    
-margin: auto;
-text-align: left;
+
+  margin: auto;
+  text-align: left;
 
 }
 .TableauMaroc th, td {
@@ -269,8 +269,8 @@ text-align: left;
   padding: 3px;
   font-family: "Outfit", sans-serif;
   border: 1px solid #ffffff;
-    text-shadow: 2px 2px 2px gray;
-    font-size: 20px;
+  text-shadow: 2px 2px 2px gray;
+  font-size: 20px;
 
 }
 
@@ -294,7 +294,7 @@ h2 {
   border-radius: 10px;
   padding: 5px;
   font-size: small;
-      text-shadow: 2px 2px 2px gray;
+  text-shadow: 2px 2px 2px gray;
 
 
 }
@@ -325,33 +325,33 @@ h2 {
   max-width: 37%;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.3);
-      backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   box-sizing: border-box;
-      border-radius: 10px;
+  border-radius: 10px;
 
 }
 
 /* Body */
 
 body {
-    background-image: url('../assets/ruelle-dans-une-medina-de-marrakech-sous-le-soleil-et-un-ciel-bleu-a-mor.jpg');
-      background-size: cover;                      
-      background-repeat: no-repeat;  
-      height: 100vh;
-      margin: 0;
-      background-attachment: fixed;
-      background-position: 40% 50%;
-      font-family: "Outfit", sans-serif;
+  background-image: url('../assets/ruelle-dans-une-medina-de-marrakech-sous-le-soleil-et-un-ciel-bleu-a-mor.jpg');
+  background-size: cover;                      
+  background-repeat: no-repeat;  
+  height: 100vh;
+  margin: 0;
+  background-attachment: fixed;
+  background-position: 40% 50%;
+  font-family: "Outfit", sans-serif;
 }
 
 .TitrePrincipal2 {
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 0px;
-    font-weight: bold;
-    font-size: 70px;
-    margin-top: 7vw;
-    text-shadow: 2px 2px 2px gray;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 70px;
+  margin-top: 7vw;
+  text-shadow: 2px 2px 2px gray;
 }
 
 .Presentation2 {
@@ -386,8 +386,3 @@ body {
   height: 12vw;
   width: auto;
 }
-
-  }
-
-   
-
