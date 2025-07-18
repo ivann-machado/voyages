@@ -10,7 +10,7 @@ body {
     background-image: url('../assets/beau-paysage-avec-des-aurores-boreales.jpg');
       background-size: cover;                      
       background-repeat: no-repeat;  
-      height: 100%;
+      height: 100vh;
       margin: 0;
       background-attachment: fixed;
       background-position: 40% 50%;
