@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>lesState.comr</title>
+    <link rel="stylesheet" href="zz.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <h1 class="logo">🇺🇸 DECOUVREZ LES ETAT UNIS</h1>
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
+        <label for="menu-toggle" class="menu-toggle" aria-label="Menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </label>
+        <ul class="nav-links">
+          <li><a href="#intro">Accueil</a></li>
+          <li><a href="#infos">Infos</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#villes">Villes</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header id="intro">
+      <h1 class="titre-usa" data-aos="fade-up">Explorez l'âme des USA 🇺🇸</h1>
+      <p data-aos="fade-up" style="font-style: italic">
+        Liberté, grands espaces et aventures inoubliables vous attendent.
+      </p>
+    </header>
+
+    <!-- INTRO -->
+    <section class="bloc-transparent" data-aos="fade-up">
+      <p>
+        Des gratte-ciel de Manhattan aux plages de Californie, plongez dans le
+        rêve américain ! Le pays des road trips, des parcs nationaux, de la
+        culture pop et d'une diversité époustouflante vous ouvre les bras.
+      </p>
+    </section>
+
+    <!-- INFOS -->
+    <section class="bloc-transparent2" id="infos" data-aos="fade-up">
+      <h2>Où se trouvent les États-Unis ?</h2>
+      <img src="carte.jpg" alt="Carte des États-Unis" class="responsive-img" />
+      <table class="info-usa">
+        <tbody>
+          <tr>
+            <th>Capitale</th>
+            <td>Washington D.C.</td>
+          </tr>
+          <tr>
+            <th>Population</th>
+            <td>Environ 331 millions</td>
+          </tr>
+          <tr>
+            <th>Superficie</th>
+            <td>9,8 millions km²</td>
+          </tr>
+          <tr>
+            <th>Langue</th>
+            <td>Anglais</td>
+          </tr>
+          <tr>
+            <th>Monnaie</th>
+            <td>Dollar (USD)</td>
+          </tr>
+          <tr>
+            <th>Fête nationale</th>
+            <td>4 juillet</td>
+          </tr>
+          <tr>
+            <th>Symbole</th>
+            <td>
+              <img
+                src="statue.png"
+                class="icon"
+                alt="Statue de la liberté"
+              />Statue de la liberté
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- GALERIE -->
+    <section
+      class="carousel-auto bloc-transparent2"
+      id="galerie"
+      data-aos="zoom-in"
+    >
+      <h2 style="text-align: center">Galerie manuelle</h2>
+      <div class="carousel-container">
+        <button class="prev" aria-label="Précédent">&#10094;</button>
+        <div class="carousel-slides">
+          <img src="ny.jpg" alt="New York" class="carousel-image active" />
+          <img src="lasvegas.jpg" alt="Las Vegas" class="carousel-image" />
+          <img src="miami.webp" alt="Miami" class="carousel-image" />
+        </div>
+        <button class="next" aria-label="Suivant">&#10095;</button>
+      </div>
+    </section>
+
+    <!-- VILLES -->
+    <section class="bloc-transparent2" id="villes" data-aos="fade-up">
+      <h2 style="text-align: center">Top 5 des villes à découvrir</h2>
+      <div class="ville">
+        <h3>🗽 New York City</h3>
+        <p>Explorez Times Square, Central Park, l’Empire State Building...</p>
+        <img src="ny.jpg" class="responsive-img" alt="New York" />
+      </div>
+  <div class="video-ville">
+    <iframe src="newyork.mp4" title="New York City Video" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+      <div class="ville">
+        <h3>🌴 Miami</h3>
+        <p>
+          South Beach, Art Deco, Everglades et Little Havana vous attendent.
+        </p>
+        <img src="miami.webp" class="responsive-img" alt="Miami" />
+      </div>
+      <div class="ville">
+        <h3>🎬 Los Angeles</h3>
+        <p>Hollywood, Walk of Fame, Santa Monica et Venice Beach.</p>
+        <img src="la.jpg" class="responsive-img" alt="Los Angeles" />
+      </div>
+      <div class="video-ville">
+    <iframe src="california.mp4" title="New York City Video" frameborder="0" allowfullscreen></iframe>
+  </div>
+      <div class="ville">
+        <h3>🏙️ Chicago</h3>
+        <p>Millennium Park, The Bean, Art Institute et Willis Tower.</p>
+        <img src="chicago.jpg" class="responsive-img" alt="Chicago" />
+      </div>
+      <div class="ville">
+        <h3>🎰 Las Vegas</h3>
+        <p>Casinos géants, spectacles, Grand Canyon.</p>
+        <img src="lasvegas.jpg" class="responsive-img" alt="Las Vegas" />
+      </div>
+    </section>
+    <!-- SPORT -->
+    <section class="bloc-transparent2" id="sport" data-aos="fade-up">
+      <h2 style="text-align: center">🏈 Le sport aux États-Unis</h2>
+
+      <div class="sport-item">
+        <h3>🏈 Football Américain (NFL)</h3>
+        <p>
+          Sport le plus populaire, surtout avec le Super Bowl chaque année. Les
+          équipes comme les New England Patriots ou les Kansas City Chiefs
+          attirent des millions de fans.
+        </p>
+        <img src="ft.gif" alt="Football américain" class="responsive-img" />
+      </div>
+
+      <div class="sport-item">
+        <h3>🏀 Basketball (NBA)</h3>
+        <p>
+          La NBA est connue dans le monde entier grâce à des stars comme LeBron
+          James, Steph Curry et les légendaires Chicago Bulls de Michael Jordan.
+        </p>
+        <img src="source.gif" alt="Football américain" class="responsive-img" />
+      </div>
+
+      <div class="sport-item">
+        <h3>⚾ Baseball (MLB)</h3>
+        <p>
+          Considéré comme le "passe-temps national", le baseball reste très
+          populaire avec des équipes comme les Yankees de New York ou les
+          Dodgers de Los Angeles.
+        </p>
+        <img src="bal.gif" alt="Football américain" class="responsive-img" />
+      </div>
+
+      <div class="sport-item">
+        <h3>🏒 Hockey sur glace (NHL)</h3>
+        <p>
+          Très suivi dans le nord des États-Unis. Les équipes comme les Boston
+          Bruins ou les Chicago Blackhawks ont une grande histoire.
+        </p>
+        <img src="h.gif" alt="Football américain" class="responsive-img" />
+      </div>
+
+      <div class="sport-item">
+        <h3>🎾 Autres sports</h3>
+        <p>
+          Le tennis, la boxe, le golf et la Formule 1 gagnent aussi en
+          popularité.
+        </p>
+        <img src="img/nfl.jpg" alt="class" ="responsive-img" />
+      </div>
+    </section>
+    <!-- CINÉMA -->
+    <section class="bloc-transparent2" id="cinema" data-aos="fade-up">
+      <h2 style="text-align: center">🎬 Le cinéma aux États-Unis</h2>
+
+      <div class="cinema-item">
+        <h3>🎥 Hollywood</h3>
+        <p>
+          Hollywood, situé à Los Angeles, est le cœur de l'industrie
+          cinématographique mondiale. Des milliers de films y sont produits
+          chaque année.
+        </p>
+        <img src="img/hollywood.jpg" alt="Hollywood" class="responsive-img" />
+      </div>
+
+      <div class="cinema-item">
+        <h3>🏆 Oscars</h3>
+        <p>
+          Les Oscars, ou Academy Awards, sont les récompenses les plus
+          prestigieuses du cinéma. Ils se tiennent chaque année à Los Angeles
+          depuis 1929.
+        </p>
+        <img
+          src="img/oscars.jpg"
+          alt="Cérémonie des Oscars"
+          class="responsive-img"
+        />
+      </div>
+
+      <div class="cinema-item">
+        <h3>🌟 Acteurs & Studios</h3>
+        <p>
+          Les États-Unis sont la patrie de stars comme Leonardo DiCaprio, Meryl
+          Streep et de studios géants comme Warner Bros, Disney et Universal
+          Pictures.
+        </p>
+        <img
+          src="img/studios.jpg"
+          alt="Studios de cinéma américains"
+          class="responsive-img"
+        />
+      </div>
+    </section>
+    <!-- MUSIQUE -->
+    <section class="bloc-transparent2" id="musique" data-aos="fade-up">
+      <h2 style="text-align: center">🎶 La musique aux États-Unis</h2>
+
+      <div class="musique-item">
+        <h3>🎸 Rock & Roll</h3>
+        <p>
+          Le rock américain a marqué l’histoire grâce à des légendes comme Elvis
+          Presley, Jimi Hendrix ou Bruce Springsteen. Il est né dans les années
+          1950.
+        </p>
+        <img src="img/rock.jpg" alt="Rock américain" class="responsive-img" />
+      </div>
+
+      <div class="musique-item">
+        <h3>🎤 Hip-Hop & Rap</h3>
+        <p>
+          Le hip-hop est né dans le Bronx à New York dans les années 70. Des
+          artistes comme Tupac, Eminem ou Kendrick Lamar ont marqué le genre.
+        </p>
+        <img src="img/hiphop.jpg" alt="Rap américain" class="responsive-img" />
+      </div>
+
+      <div class="musique-item">
+        <h3>🎷 Jazz & Blues</h3>
+        <p>
+          Nés dans le sud des États-Unis, le jazz et le blues sont les racines
+          de nombreuses musiques modernes. Louis Armstrong ou B.B. King sont des
+          icônes.
+        </p>
+        <img src="img/jazz.jpg" alt="Jazz et blues" class="responsive-img" />
+      </div>
+
+      <div class="musique-item">
+        <h3>🎧 Musique Pop</h3>
+        <p>
+          La pop américaine domine les classements mondiaux avec des stars comme
+          Michael Jackson, Beyoncé, Taylor Swift ou Billie Eilish.
+        </p>
+        <img src="img/pop.jpg" alt="Musique pop" class="responsive-img" />
+      </div>
+    </section>
+
+    <!-- CULTURE -->
+    <section class="bloc-transparent2" data-aos="fade-up">
+      <h2>🎵 Culture & Symbols</h2>
+      <ul>
+        <li>🎤 Musique : Jazz, Rock, Hip-Hop, Country</li>
+        <li>🎬 Cinéma : Hollywood, Oscars, Blockbusters</li>
+        <li>🏈 Sports : Football américain, NBA, Baseball</li>
+        <li>🗽 Symboles : Statue de la Liberté, Drapeau, Aigle</li>
+        <li>🍔 Cuisine : Burgers, BBQ, Donuts, Thanksgiving</li>
+      </ul>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; 2025 - USA Travel</p>
+    </footer>
+
+    <!-- AOS & JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1000, once: true });
+
+      // Carousel
+      const slides = document.querySelectorAll(".carousel-image");
+      const prev = document.querySelector(".prev");
+      const next = document.querySelector(".next");
+      let current = 0;
+
+      function updateSlide(index) {
+        slides.forEach((slide, i) => {
+          slide.classList.toggle("active", i === index);
+        });
+      }
+
+      prev.addEventListener("click", () => {
+        current = (current - 1 + slides.length) % slides.length;
+        updateSlide(current);
+      });
+
+      next.addEventListener("click", () => {
+        current = (current + 1) % slides.length;
+        updateSlide(current);
+      });
+    </script>
+  </body>
+</html>
