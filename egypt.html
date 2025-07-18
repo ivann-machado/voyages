@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Voyage en Égypte</title>
+    <link rel="stylesheet" href="css/egypt.css" />
+    <link rel="stylesheet" href="./css/animations.css" />
+    <link
+      rel="preload"
+      href="./assets/map.svg"
+      as="image"
+      type="image/svg+xml"
+    />
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/external-svg-loader@1.0.0/svg-loader.min.js"
+      async
+    ></script>
+    <script type="text/javascript" src="./js/animations.js"></script>
+  </head>
+  <body class="country">
+    <svg
+      class="allSvg"
+      data-src="./assets/map.svg"
+      width="100%"
+      height="100%"
+    ></svg>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Égypte</h1>
+            <p class="hero-subtitle">
+              Partez à la découverte de l'Égypte, terre de civilisations et
+              d'aventures.
+            </p>
+            <p class="hero-description">
+              L’Égypte, pays fascinant aux confins de l’Afrique et du
+              Moyen-Orient, incarne l’un des plus grands berceaux de
+              civilisation du monde. Bordée par les eaux éternelles du Nil et
+              les étendues du désert, l’Égypte a vu naître les pharaons,
+              bâtisseurs de pyramides, et les peuples dont les récits traversent
+              encore les siècles.
+            </p>
+          </div>
+          <div class="hero-images">
+            <div class="hero-image-card large">
+              <img src="./assets/obelix.jpg" alt="Obélisque" />
+              <div class="image-overlay">
+                <h3>Obélisque</h3>
+                <p>Merveilles antiques</p>
+              </div>
+            </div>
+            <div class="hero-image-card">
+              <img src="./assets/vallée.jpg" alt="Vallée des Rois" />
+              <div class="image-overlay">
+                <h3>Vallée des Rois</h3>
+                <p>Sanctuaire des pharaons</p>
+              </div>
+            </div>
+            <div class="hero-image-card">
+              <img src="./assets/tombe.jpg" alt="Tombes" />
+              <div class="image-overlay">
+                <h3>Tombes</h3>
+                <p>Mystères éternels</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="nav-section">
+      <div class="container">
+        <div class="nav-content">
+          <ul>
+            <li><a href="#informations">Informations</a></li>
+            <li><a href="#galerie">Galerie</a></li>
+            <li><a href="#recit">Mon Récit</a></li>
+            <li><a href="#conseils">Conseils</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="informations" class="info-section">
+      <h2>Informations</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Caractéristique</th>
+            <th>Valeur</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Population</td>
+            <td>104 millions d'habitants</td>
+          </tr>
+          <tr>
+            <td>Superficie</td>
+            <td>1 001 450 km²</td>
+          </tr>
+          <tr>
+            <td>Capitale</td>
+            <td>Le Caire</td>
+          </tr>
+          <tr>
+            <td>Langue officielle</td>
+            <td>Arabe</td>
+          </tr>
+          <tr>
+            <td>Monnaie</td>
+            <td>Livre égyptienne (EGP)</td>
+          </tr>
+          <tr>
+            <td>Armoiries</td>
+            <td>
+              <img
+                src="./assets/drapeau.jpg"
+                alt="Armoiries de l'Égypte"
+                width="80"
+                height="80"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="galerie" class="gallery-section">
+      <div class="container">
+        <h2 class="section-title">Galerie Photos & Vidéos</h2>
+        <p class="gallery-intro">Cliquez sur les images pour les agrandir</p>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="./assets/obelix.jpg" alt="Obélisque" />
+            <div class="gallery-item-content">
+              <h3>Obélisque</h3>
+              <p>Un moment magique devant ces merveilles du monde antique</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="./assets/vallée.jpg" alt="Vallée des Rois" />
+            <div class="gallery-item-content">
+              <h3>La Vallée des Rois</h3>
+              <p>Le Sanctuaire des Pharaons</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img src="./assets/tombe.jpg" alt="Tombes" />
+            <div class="gallery-item-content">
+              <h3>Safaga</h3>
+              <p>Fresque Murale</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-section">
+          <h3>Mes Vidéos de Voyage</h3>
+          <div class="video-grid">
+            <div class="video-item">
+              <video controls>
+                <source src="./assets/nil.mp4" type="video/mp4" />
+                Votre navigateur ne supporte pas la vidéo.
+              </video>
+              <div class="video-item-content">
+                <h4>Croisière sur le Nil</h4>
+              </div>
+            </div>
+            <div class="video-item">
+              <video controls>
+                <source src="./assets/sercophage.mp4" type="video/mp4" />
+                Votre navigateur ne supporte pas la vidéo.
+              </video>
+              <div class="video-item-content">
+                <h4>Visite d'une tombe de pharaons</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="recit" class="story-section">
+      <div class="container">
+        <h2 class="section-title">Mon Récit de Voyage</h2>
+        <div class="story-content">
+          <h3>Jour 1-3 : Hurgada</h3>
+          <p>
+            Arrivée à Hurgada, cette ville balnéaire est immense et fascinante.
+            Visite de la ville dès le premier jour - détente sur la plage et
+            découverte des fonds marins en snorkeling. Les gens sont
+            accueillants et la vie nocturne animée.
+          </p>
+
+          <h3>Jour 4-7 : Croisière sur le Nil</h3>
+          <p>
+            Embarquement pour une croisière inoubliable. Navigation paisible
+            entre Assouan et Louxor, avec des arrêts dans les temples les plus
+            beaux d'Égypte. Le coucher de soleil sur le Nil restera gravé dans
+            ma mémoire.
+          </p>
+
+          <h3>Jour 8-10 : Louxor</h3>
+          <p>
+            Exploration de la Vallée des Rois et des temples de Karnak. Chaque
+            pierre raconte une histoire vieille de millénaires. Un voyage dans
+            le temps absolument magique.
+          </p>
+
+          <h3>Jour 11-15 : Retour à Hurgada</h3>
+          <p>
+            Retour à Hurgada pour profiter une dernière fois des plages et des
+            activités nautiques. J'ai eu l'occasion de faire du quad dans
+            l'immense désert environnant de Safaga. Une expérience inoubliable !
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="conseils" class="tips-section">
+      <div class="container">
+        <h2 class="section-title">Mes Conseils pour Voyager en Égypte</h2>
+        <div class="tips-grid">
+          <div class="tip-card">
+            <h3>Quand partir ?</h3>
+            <p>
+              Privilégiez l'automne et l'hiver (octobre à avril) pour éviter les
+              fortes chaleurs de l'été.
+            </p>
+          </div>
+          <div class="tip-card">
+            <h3>Que emporter ?</h3>
+            <p>
+              Protection solaire, vêtements légers mais couvrants, chaussures
+              confortables pour marcher.
+            </p>
+          </div>
+          <div class="tip-card">
+            <h3>Budget</h3>
+            <p>
+              Comptez environ 1200-1500€ par personne pour 15 jours tout compris
+              avec croisière. Pour les activités, privilégiez une agence locale
+              pour des tarifs avantageux.
+            </p>
+          </div>
+          <div class="tip-card">
+            <h3>Santé</h3>
+            <p>
+              Aucun vaccin obligatoire, mais pensez à emporter des médicaments
+              contre les troubles digestifs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2022 Mon Voyage en Égypte</p>
+      </div>
+    </footer>
+
+    <div id="modal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modal-img" />
+      <div class="modal-caption"></div>
+    </div>
+
+    <script>
+      const galleryItems = document.querySelectorAll(".gallery-item img");
+      const modal = document.getElementById("modal");
+      const modalImg = document.getElementById("modal-img");
+      const modalCaption = document.querySelector(".modal-caption");
+      const closeBtn = document.querySelector(".close");
+
+      galleryItems.forEach((img) => {
+        img.addEventListener("click", function () {
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          modalCaption.innerHTML = this.alt;
+        });
+      });
+
+      closeBtn.addEventListener("click", function () {
+        modal.style.display = "none";
+      });
+
+      window.addEventListener("click", function (event) {
+        if (event.target === modal) {
+          modal.style.display = "none";
+        }
+      });
+
+      document.querySelectorAll("nav a").forEach((link) => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute("href").substring(1);
+          const targetElement = document.getElementById(targetId);
+
+          if (targetElement) {
+            targetElement.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
