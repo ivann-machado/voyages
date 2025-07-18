@@ -16,6 +16,15 @@ body.index {
 			background: linear-gradient(135deg, rgba(0,0,0,0.4), rgba(0,0,0,0.6));
 			z-index: 1;
 		}
+body {
+      background-size: cover;                      
+      background-repeat: no-repeat;  
+      height: 100vh;
+      margin: 0;
+      background-attachment: fixed;
+      background-position: 40% 50%;
+      font-family: "Outfit", sans-serif;
+}
 
 		main {
 			position: relative;
