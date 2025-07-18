@@ -20,7 +20,7 @@
 		background: none; 
 	}
 }
-body:before {
+.country:before {
 	content: "";
 	position: fixed;
 	width: 100%;
