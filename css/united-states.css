@@ -1,5 +1,6 @@
 :root {
-  --bg: #0f0f0f;
+  background-attachment:fixed;
+  --bg: #e1bfbf;
   --text: #ffffff;
   --accent: #ffcc00;
   --card-bg: rgba(255, 255, 255, 0.06);
@@ -19,6 +20,7 @@ body.light {
 }
 
 body {
+  background-image: urf;
   font-family: 'Poppins', sans-serif;
   margin: 0;
   background: url('drapeau-usa.png') no-repeat center top;
@@ -143,7 +145,7 @@ a {
 
 header {
   background: url('fond-usa.jpg') no-repeat center center/cover;
-  padding: 140px 20px 60px;
+  padding: 10px 20px 60px;
   text-align: center;
 }
 
@@ -296,4 +298,19 @@ footer {
 
 .cinema-item p {
   margin: 0 0 10px;
+}
+.video{
+  width: 320px;
+  height: 180px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.logo-img{
+  width: 320px;
+  height: 180px;
+  display: block;
+  margin: 70px auto 0 auto;
+  /* margin-top: 65px; */
+  border-radius: 10px;
 }
